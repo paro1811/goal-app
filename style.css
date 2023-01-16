@@ -4,7 +4,7 @@
 }
 
 .bg{
-    background-image: url("/customizable wallpaper_planner.png");
+    background-image: url('customizable wallpaper_planner.png');
     width: 100vw;
     height: 100vh; 
     background-position: center;
@@ -16,7 +16,7 @@
 }
 
 .normbg{
-    background-image: url("/Screenshot 2023-01-15 at 18.10.50.png");
+    background-image: url('Screenshot 2023-01-15 at 18.10.50.png');
     width: 100%;
     min-height: 100%; 
     margin-top: 1%;
