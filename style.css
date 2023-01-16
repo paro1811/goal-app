@@ -1,0 +1,430 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.bg{
+    background-image: url("/Users/pbadiger/Documents/Goal setting application/customizable wallpaper_planner.png");
+    width: 100vw;
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 1%;
+    background-repeat: repeat-y;
+
+}
+
+.normbg{
+    background-image: url("/Users/pbadiger/Desktop/Screenshot 2023-01-15 at 18.10.50.png");
+    width: 100%;
+    min-height: 100%; 
+    margin-top: 1%;
+
+}
+
+.topnavhome{
+    background-color:rgb(166, 171, 166);
+    height: 100%;
+    margin-bottom: -1%;
+
+}
+
+.topnav{
+    background-color:rgb(166, 171, 166);
+    height: 100%;
+    margin-bottom: -1%;
+    border-bottom-style: solid;
+    border-bottom: 2%;
+    border-bottom-color: rgb(31, 53, 62);
+
+}
+
+.navleft a{
+    float: left;
+    color: rgb(31, 53, 62);
+    text-align: center;
+    font-size: 110%;
+    margin: 2%;
+    display:block;
+    text-decoration: none;
+    margin-top: 4%;
+    
+}   
+
+.logo p{
+    float: center;
+    color: rgb(31, 53, 62);
+    text-align: center;
+    font-size: 350%;
+    padding-top: 1.25%;
+    margin-right: 25%;
+    font-style:bold;
+ 
+}
+
+.navright a{
+    float: right;
+    color: rgb(31, 53, 62);
+    text-align: center;
+    font-size: 110%;
+    margin: 2%;
+    display:inline-block;
+    text-decoration: none;
+    margin-top: -1.75%;
+}
+
+
+.container{
+    padding-top: 7%;
+    
+}
+
+.box{
+    margin-left: 24.3%;
+    padding-bottom: 7.5%;
+    height: 100%;
+    width:48.7%;
+    position: relative;
+    background-color:rgb(31, 53, 62);
+    opacity:0.8;
+    border-radius: 3%;
+    border-width: 0%;
+    border-style: solid;
+    border-color:aliceblue;
+    
+}
+
+.box h3{
+    text-align: center;
+    line-height: 220%;
+    padding-top: 10%;
+    color: rgb(197, 206, 215);
+}
+
+.box button{
+    margin-top: 4.75%;
+    margin-left: 38.5%;
+}
+
+.box button a:hover{
+    background-color: rgb(197, 206, 215);
+    color:rgb(31, 53, 62);
+}
+
+.box button a{
+    background-color: rgb(31, 53, 62);
+    border-style: solid;
+    border:3px;
+    border-color: rgb(197, 206, 215);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    color: rgb(197, 206, 215);
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.signbg{
+    padding-top: 3%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    padding-bottom: 3%;
+    position: relative;
+    background-color:rgb(166, 171, 166);
+}
+
+
+.signupform{
+    margin-left: 18%;
+    margin-right: 18%;
+    height: 100%;
+    position: relative;
+    background-color:rgb(244, 241, 236);  
+}
+
+.sign{
+    margin-left: 12%;
+    margin-right: 15%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.sign h3{
+    float: center;
+    text-align: center;
+    font-size: 180%;
+    color: rgb(31, 53, 62);
+}
+
+.sign p[id="1"]{
+    float: center;
+    text-align: center;
+    color: rgb(31, 53, 62);
+    padding-bottom: 10%;
+}
+
+.name label, .adr label, .personal label{
+    color: rgb(31, 53, 62);
+}
+
+.name input, .adr input, .personal input{
+    margin-bottom: 5%;
+    width:80%;
+    padding: 1.5%;
+    outline:none;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(31, 53, 62);
+}
+
+.personal select{
+    margin-bottom: 5%;
+    width:25%;
+    padding: 1.5%;
+    outline:none;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(31, 53, 62);
+}
+
+.personal input[id=bio]{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.adr input[id=country]{
+    width:40%;
+}
+
+.adr input[id=zip]{
+    margin-left: 11%;
+    width:30%;
+}
+
+.adr label[for=zip]{
+    margin-left:45%;
+}
+
+.sign button{
+    background-color: rgb(31, 53, 62);
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.sign button a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110%;
+    color: rgb(197, 206, 215);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sign p[id="2"]{
+    padding-top: 1.5%;
+    color: rgb(31, 53, 62);
+}
+
+.sign p[id="2"] a{
+    color: rgb(31, 53, 62);
+}
+
+.sign h3[id="3"]{
+    padding-bottom: 10%;
+}
+
+.sign p[id="4"]{
+    font-size: small;
+    margin-top: -2.5%;
+    padding-bottom: 6%;
+}
+
+.sign p[id="5"]{
+    padding-top: 3%;
+    float: center;
+    text-align: center;
+}
+
+.sign p[id="5"] a{
+    color: rgb(31, 53, 62);
+}
+
+.containerhome{
+    padding-top: 7%;
+    
+}
+
+.lightbghome{
+    padding-top: 1%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 3%;
+    position: relative;
+    background-color:rgb(244, 241, 236);  
+}
+
+.lightbghome h1{
+    color: rgb(31, 53, 62);
+    text-align: left;
+    margin-left: 10%;
+    font-size: 250%;
+    
+}
+
+.homecont{
+    padding-top: 3%;
+}
+
+.plus{
+    display: inline-block;
+}
+
+.newgoal h1{
+    margin-left: 10%;
+    color: rgb(31, 53, 62);
+}
+
+.newgoal a{
+    padding-left: 1%;
+    color: rgb(31, 53, 62);
+}
+
+.darkbghome{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    height: 100%;
+    position: relative;
+    background-color:rgb(31, 53, 62);  
+}
+
+.darkbghome h2{
+    color: rgb(197, 206, 215);
+    text-align: center;
+    float: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bghome{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    position: relative;
+    background-color:rgb(166, 171, 166);
+    padding-top: 5%;  
+}
+
+.goal{
+    margin-left: 10%;
+    height: 100%;
+    width:35%;
+    position: relative;
+    background-color:rgb(31, 53, 62);
+    opacity:0.9;
+    border-radius: 10px;
+    border-width: 0%;
+    border-style: solid;
+    border-color:rgb(197, 206, 215);
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.goal h3{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgb(197, 206, 215);
+    text-align: center;
+    float: center;
+}
+
+.goal p[id="2"]{
+    padding-top: 2%;
+    padding-bottom: 20%;
+    color: rgb(197, 206, 215);
+    text-align: center;
+    float: center;
+}
+
+.goal p{
+    text-align: center;
+    float: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgb(197, 206, 215);
+}
+
+.goal p a{  
+    color: rgb(197, 206, 215);
+}
+
+.darkbghome h2[id="1"]{
+    color: rgb(197, 206, 215);
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.darkbghome p{
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.darkbghome p a{
+    color: rgb(197, 206, 215);
+}
+
+.name input[id="goaldate"]{
+    width:30%;
+}
+
+.name input[id=spec]{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.name h4{
+    padding-top: 5%;
+    color: rgb(31, 53, 62);
+    text-align: center;
+    float: center;
+    padding-bottom: 5%;
+}
+
+.name a[id="9"]{
+    color: rgb(31, 53, 62);
+}
+
+.sign h4[id="8"]{
+    text-align: center;
+    float: center;
+    padding-bottom: 2%;
+    text-decoration: underline;
+}
+
+.sign p[id="25"]{
+    text-align: center;
+    float: center;
+    padding-bottom: 5%;
+}
+
+.sign p[id="30"]{
+    padding-top: 7%;
+    padding-bottom: 3%;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.sign button[id="35"]{
+    margin-top: 7%; 
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add goal</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <div class="navleft">
+                <a href="home.html">Home </a>
+                <a href="addgoal.html">Add Goal</a>
+            </div>
+            <div class="logo">
+                <p>Goals</p>
+            </div>
+            <div class="navright">
+                <a href="login.html">logout </a>
+                <a href="">Profile</a>
+            </div>
+        </div>
+    </nav>
+    <div class="normbg">
+        <div class="container">
+            <div class="signbg">
+                <div class="signupform">
+                    <form>
+                        <div class="sign">
+                            <h3 id="3">Add a new goal!</h3>
+                            <div class="name">
+                                <label for="goalname">Name of the goal:</label><br>
+                                <input type="text" id="goalname" name="goalname" placeholder="Enter name of the goal..."><br>
+                                <label for="goaldate">Date the goal is created:</label>
+                                <input type="date" id="goaldate" name="goaldate"><br>
+                                <label for="goaldate">Due date of the goal:</label>
+                                <input type="date" id="goaldate" name="goaldate"><br>
+                                <hr>
+                                <h4>SMART description of goal</h4>
+                                <label for="spec">Specific:</label><br>
+                                <input type="spec" id="spec" name="spec" placeholder="Describe the goal in a specific manner"><br>
+                                <label for="spec">Measurable:</label><br>
+                                <input type="spec" id="spec" name="spec" placeholder="Is the goal measurable?"><br>
+                                <label for="spec">Achievable:</label><br>
+                                <input type="spec" id="spec" name="spec" placeholder="Is the goal achievable?"><br>
+                                <label for="spec">Relevant:</label><br>
+                                <input type="spec" id="spec" name="spec" placeholder="How is the goal relevant to you?"><br>
+                                <label for="spec">Time-bound:</label><br>
+                                <input type="spec" id="spec" name="spec" placeholder="What is the time limit for this goal?"><br>
+                                <hr>
+                                <h4>Add targets</h4>
+                                <label for="goalname">Target 1:</label><br>
+                                <input type="text" id="goalname" name="goalname" placeholder="Enter a target"><br>
+                                <p>Choose completition status:</p>
+                                <input type="radio" id="complete" name="complete" value="complete">
+                                <label for="complete">Complete</label><br>
+                                <input type="radio" id="notcomp" name="notcomp" value="notcomp">
+                                <label for="complete">Not complete</label><br>
+                                <input type="radio" id="inpr" name="inpr" value="inpr">
+                                <label for="complete">In process</label><br><br>
+                                <h1 class="plus">+</h1><a href="" class="plus" id="9">Add new target</a>
+                                <hr>    
+                            </div>
+
+                            <button type="button"><a href="home.html">Create goal</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
